@@ -45,7 +45,7 @@ A Streamlit-based web application for generating custom QR codes. Users can crea
    streamlit run app.py
    ```
 
-Open your browser and navigate to http://localhost:8501.
+   Open your browser and navigate to http://localhost:8501.
 
 5. **Generate QR Codes**:
    Enter a URL in the input box.
@@ -53,17 +53,13 @@ Open your browser and navigate to http://localhost:8501.
    Click Generate QR Code to create the QR code.
    Use the Download QR Code button to save the generated QR code as a PNG file.
 
-   ```
+6. Dependencies
 
-   ```
+   - Streamlit: For creating the web interface.
+   - qrcode: For generating the QR code.
+   - Pillow (PIL): For image manipulation, resizing, and adding a logo.
 
-Dependencies
+7. Project Structure
 
-    Streamlit: For creating the web interface.
-    qrcode: For generating the QR code.
-    Pillow (PIL): For image manipulation, resizing, and adding a logo.
-
-Project Structure
-
-    app.py: Main application file containing the logic for the QR code generation and UI design.
-    requirements.txt: List of dependencies required to run the app.
+   app.py: Main application file containing the logic for the QR code generation and UI design.
+   requirements.txt: List of dependencies required to run the app.
