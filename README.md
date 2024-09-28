@@ -6,7 +6,6 @@ A Streamlit-based web application for generating custom QR codes. Users can crea
 
 - **Generate Custom QR Codes**: Input any URL to create a QR code.
 - **Optional Logo Integration**: Upload a custom logo to be embedded in the center of the QR code.
-- **Neumorphism-Themed UI**: A minimalistic web interface with a black background and white bold text styled with neumorphism.
 - **Downloadable PNG**: Generated QR codes are downloadable in high quality.
 
 ## Demo
